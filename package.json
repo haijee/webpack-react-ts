@@ -1,7 +1,7 @@
 {
   "name": "webpack5-react-ts",
   "version": "1.0.0",
-  "description": "使用webpack5从零搭建完整的react18+ts构建环境",
+  "description": "使用webpack5搭建的react+ts项目架构",
   "main": "index.js",
   "scripts": {
     "dev:dev": "cross-env NODE_ENV=development BASE_ENV=development webpack-dev-server -c build/webpack.dev.js",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guojiongwei/webpack5-react-ts.git"
+    "url": "git+https://github.com/haijee/webpack-react-ts.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "haijee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guojiongwei/webpack5-react-ts/issues"
+    "url": "https://github.com/haijee/webpack-react-ts/issues"
   },
-  "homepage": "https://github.com/guojiongwei/webpack5-react-ts#readme",
+  "homepage": "https://github.com/haijee/webpack-react-ts#readme",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/plugin-proposal-decorators": "^7.18.2",
